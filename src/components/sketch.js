@@ -1,6 +1,7 @@
 function sketch(p) {
-    let x = 0;
+    /* let x = 0; */
     p.setup = function () {
+        p.clear()
         p.createCanvas(500, 500);
     }
 
