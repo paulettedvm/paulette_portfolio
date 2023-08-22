@@ -4,7 +4,7 @@ body {
   background-color: black;
 }
 
-h1, p, nav {
+h1, p, nav, a {
   color: #6FF958;
 }
 

@@ -1,0 +1,23 @@
+.clock-wrapper {
+    position: relative;
+  }
+  
+.tooltip {
+    position: absolute;
+    bottom: 50%; 
+    left: 50%; 
+    /*border: solid 1px white;*/
+    transform: translateX(-50%); 
+    background-color: rgba(0, 0, 0, 1);
+    padding: 5px 10px;
+    font-size: 12px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+  
+.clock-wrapper:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+  

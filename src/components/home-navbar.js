@@ -17,9 +17,9 @@ const NavBar = () => {
         flexDirection: "row-reverse",
         padding: 0, 
       }}>
-        <li style={itemStyle}><a href="/" style={linkStyle}>contact</a></li>
-        <li style={itemStyle}><a href="/" style={linkStyle}>projects</a></li>
-        <li style={itemStyle}><a href="/" style={linkStyle}>about me</a></li>
+        <li style={itemStyle}><a href="https://www.linkedin.com/in/paulettedvm/" style={linkStyle}>linkedin</a></li>
+        <li style={itemStyle}><a href="mailto:pd2662@columbia.edu" style={linkStyle}>e-mail me!</a></li>
+        {/* <li style={itemStyle}><a href="/" style={linkStyle}>about me</a></li> */}
       </ul>
     </nav>
   ); 
