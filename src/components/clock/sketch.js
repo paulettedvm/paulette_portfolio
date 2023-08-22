@@ -13,8 +13,6 @@ const sketch = (p) => {
   };
 
   p.draw = () => {
-    p.background(150);
-
     let curr_sec = p.second();
     let curr_min = p.minute();
     let curr_hr = p.hour();
