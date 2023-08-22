@@ -7,16 +7,15 @@ import NavBar from "./components/home-navbar";
 function App() {
   return (
     <div style={{
-      display: "flex"
+      fontFamily: "JetBrains Mono, sans-serif", 
+      margin: "1rem"
     }}>
-      <HomeTitle/>
-      <div style={{
-        display: "flex",
-        flexDirection: "column",
-      }}>
-        <NavBar/>
+      <NavBar/>
+      <div style={{ display:"flex" }}>
+        <HomeTitle/>
         <Clock/>
       </div>
+
     </div>
   );
 }

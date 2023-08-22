@@ -1,18 +1,22 @@
 function sketch(p) {
-    /* let x = 0; */
+    let canvasWidth, canvasHeight;
+
     p.setup = function () {
-        p.clear()
-        p.createCanvas(500, 500);
+        p.clear();
+        canvasWidth = p.windowWidth * 0.7;
+        canvasHeight = p.windowHeight * 0.8; 
+        p.createCanvas(canvasWidth, canvasHeight);
     }
 
     p.draw = function () {
         p.background(0);
-        /* p.fill(125);
-        p.ellipse(x, p.height / 2, 50, 50);
-        x += 1;
-        if (x > p.width) {
-            x = 0;
-        } */
+        // Your drawing code here
+    }
+
+    p.windowResized = function () {
+        canvasWidth = p.windowWidth * 0.7;
+        canvasHeight = p.windowHeight * 0.8; 
+        p.resizeCanvas(canvasWidth, canvasHeight);
     }
 }
 

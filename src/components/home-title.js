@@ -1,8 +1,8 @@
 const HomeTitle = () => {
     return (
         <div>
-            <h1>hey! i'm paulette.</h1>
-            <h2>i like putting cool, silly things on the internet.</h2>
+            <h1 style={{ marginBlockStart: 0 }}>hey! i'm paulette.</h1>
+            <p>i like putting cool, silly things on the internet...</p>
         </div>
     );
 }

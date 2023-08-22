@@ -4,7 +4,7 @@ const linkStyle = {
 }
 
 const itemStyle = {
-  margin: '0 10px 0 0', /* 0px left margins so that nav is aligned with canvas */
+  margin: '0 0 0 2rem', /* 0px left margins so that nav is aligned with canvas */
   padding: 0, 
 }
 
@@ -14,6 +14,7 @@ const NavBar = () => {
       <ul style={{
         listStyle: "none", 
         display: "flex",
+        flexDirection: "row-reverse",
         padding: 0, 
       }}>
         <li style={itemStyle}><a href="/" style={linkStyle}>about me</a></li>
