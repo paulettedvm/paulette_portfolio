@@ -7,6 +7,7 @@ const sketch = (p) => {
   p.setup = () => {
     canvasWidth = p.windowWidth * 0.7;
     canvasHeight = p.windowHeight * 0.8;
+
     p.createCanvas(canvasWidth, canvasHeight);
     p.background(0);
   };
@@ -19,7 +20,7 @@ const sketch = (p) => {
     let curr_hr = p.hour();
 
     let hr_col = p.color(252, 147, 26);
-    let xy_min = draw_circles(hr_total, curr_hr, hr_col, 25, 25);
+    let xy_min = draw_circles(hr_total, curr_hr, hr_col, canvasWidth - (canvasWidth - 25), canvasHeight - (canvasHeight - 25));
 
     let min_col = p.color(24, 157, 194);
     let xy_sec = draw_circles(min_total, curr_min, min_col, xy_min[0], xy_min[1]);
@@ -40,7 +41,7 @@ const sketch = (p) => {
       p.ellipse(x, y, 25, 25);
 
       x += 50;
-      if (x >= 775) {
+      if (x >= canvasWidth) {
         x = 25;
         y += 50;
       }
