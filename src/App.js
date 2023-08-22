@@ -6,12 +6,9 @@ import NavBar from "./components/home-navbar";
 /* this is effectively the homepage */
 function App() {
   return (
-    <div style={{
-      fontFamily: "JetBrains Mono, sans-serif", 
-      margin: "1rem"
-    }}>
+    <div>
       <NavBar/>
-      <div style={{ display:"flex" }}>
+      <div style={{ display: "flex" }}>
         <HomeTitle/>
         <Clock/>
       </div>

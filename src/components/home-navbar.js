@@ -17,9 +17,9 @@ const NavBar = () => {
         flexDirection: "row-reverse",
         padding: 0, 
       }}>
-        <li style={itemStyle}><a href="/" style={linkStyle}>about me</a></li>
-        <li style={itemStyle}><a href="/" style={linkStyle}>projects</a></li>
         <li style={itemStyle}><a href="/" style={linkStyle}>contact</a></li>
+        <li style={itemStyle}><a href="/" style={linkStyle}>projects</a></li>
+        <li style={itemStyle}><a href="/" style={linkStyle}>about me</a></li>
       </ul>
     </nav>
   ); 
