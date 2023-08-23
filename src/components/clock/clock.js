@@ -1,7 +1,7 @@
 import React from "react";
 import { ReactP5Wrapper } from "react-p5-wrapper";
 import sketch from "./sketch"; 
-import "./clock.css"; // Import the CSS file for Clock
+import "./clock.css"; 
 
 const Clock = () => {
     return(

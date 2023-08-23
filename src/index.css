@@ -8,7 +8,19 @@ h1, p, nav, a {
   color: #6FF958;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.clock-title {
+  display: flex;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 600px) {
+  .clock-title {
+    flex-direction: column;
+  }
+
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
