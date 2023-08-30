@@ -1,20 +1,20 @@
-import React from "react";
-import Clock from "./components/clock/clock";
-import HomeTitle from "./components/home-title";
-import NavBar from "./components/home-navbar";
-
-/* this is effectively the homepage */
+import React from 'react';
+import './App.css';
+import NavBar from './components/home-navbar'; 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/home';
+import AboutMe from './pages/about-me';
+ 
 function App() {
-  return (
-    <div class="app-container">
-      <NavBar/>
-      <div class="clock-title">
-        <HomeTitle/>
-        <Clock/>
-      </div>
-
-    </div>
-  );
+    return (
+        <Router>
+            <NavBar />
+            <Routes>
+                <Route exact path='/' element={<Home />} />
+                <Route path='/about-me' element={<AboutMe />} />
+            </Routes>
+        </Router>
+    );
 }
-
+ 
 export default App;
