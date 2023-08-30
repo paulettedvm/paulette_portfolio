@@ -6,7 +6,7 @@ const linkStyle = {
 }
 
 const itemStyle = {
-  margin: '0 2rem 2rem 0', /* doing this so the nav-bar elements are left-aligned */
+  margin: '0 2rem 1.5rem 0', /* doing this so the nav-bar elements are left-aligned */
   padding: 0, 
 }
 
@@ -20,6 +20,7 @@ const NavBar = () => {
       }}>
         <li style={itemStyle}><Link to="/" style={linkStyle}>home</Link></li>
         <li style={itemStyle}><Link to="/about-me" style={linkStyle}>about me</Link></li>
+        <li style={itemStyle}><Link to="/projects" style={linkStyle}>projects</Link></li>
         {/* <li style={itemStyle}><a href="https://www.linkedin.com/in/paulettedvm/" style={linkStyle}>linkedin</a></li> */}
         <li style={itemStyle}><a href="mailto:pd2662@columbia.edu" style={linkStyle}>e-mail me!</a></li>
         
