@@ -2,9 +2,10 @@ body {
   margin: 2rem;
   font-family: 'JetBrains Mono', sans-serif;
   background-color: black;
+  color: #6FF958;
 }
 
-h1, p, nav, a {
+a {
   color: #6FF958;
 }
 
