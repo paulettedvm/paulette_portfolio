@@ -6,8 +6,8 @@ const Home = () => {
   return (
     <div class="app-container">
       <div class="clock-title">
-        <HomeTitle/>
-        <Clock/>
+        <HomeTitle />
+        <Clock />
       </div>
     </div>
   );
