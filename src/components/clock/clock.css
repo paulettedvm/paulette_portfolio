@@ -1,3 +1,18 @@
 .clock-wrapper {
     position: relative;
 }
+
+.mobile-sketch {
+    display: none;
+}
+
+
+@media (max-width: 600px) {
+    .desktop-sketch {
+        display: none;
+    }
+
+    .mobile-sketch {
+        display: flex;
+    }
+}
