@@ -9,6 +9,11 @@ a {
   color: #6FF958;
 }
 
+.home-contents {
+  /* words in the homepage */
+  padding-right: 10px;
+}
+
 .clock-title {
   display: flex;
 }
