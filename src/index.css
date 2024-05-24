@@ -9,7 +9,8 @@ a {
   color: #6FF958;
 }
 
-.about-body {
+.about-body,
+.learn-more {
   color: white;
 }
 
@@ -32,6 +33,11 @@ a {
 
 .nav-links li a {
   text-decoration: none;
+}
+
+.nav-links .active {
+  /* highlight active tab as white */
+  color: white;
 }
 
 /* media query for mobile screens */

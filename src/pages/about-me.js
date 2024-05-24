@@ -19,11 +19,11 @@ const AboutMe = () => {
                 <p>
                     additionally, i worked as a junior editor and social media specialist at the Columbia Journal of Science, Technology, Ethics, and Policy.
                     in this role, i managed fact-checking, edited staff contributions, and created content for the journal's social media platforms.
-                    i also served as a Website Coordinator for the Columbia University Physics Department, where i transformed the department's digital presence by editing and maintaining the website, as well as crafting dynamic written and visual content to foster engagement across various platforms.
+                    i also served as a website coordinator for the Columbia University Physics Department, where i transformed the department's digital presence by editing and maintaining the website, as well as crafting dynamic written and visual content to foster engagement across various platforms.
                 </p>
 
                 <p> outside Columbia University, i worked as a{" "}
-                    <a href="https://careers.washingtonpost.com/internships/2023/"> News Engineering Intern </a>
+                    <a href="https://careers.washingtonpost.com/internships/2023/"> news engineering intern</a>{" "}
                     for The Washington Post’s News Engineering team. as an intern, i developed and maintained cutting-edge tools for the Interactive News Engineering team, including the Washington Post Design System and internal publishing tools that streamlined visual journalistic processes and enhanced data-driven narratives.
                     additionally, as part of our final intern-led project i, along with two other interns, designed and developed a tool that allows readers to customize article formatting when printing.
                 </p>
