@@ -45,3 +45,11 @@
     font-size: 1em;
     color: #444;
 }
+
+/* media query for mobile settings */
+@media (max-width: 600px) {
+    .project-image {
+        width: 100%;
+        height: auto;
+    }
+}
