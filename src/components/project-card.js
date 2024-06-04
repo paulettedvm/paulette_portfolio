@@ -1,5 +1,5 @@
 import React from 'react';
-import './project-card.css'; // Adjust the path as necessary
+import './project-card.css';
 
 const ProjectCard = (props) => {
     return (

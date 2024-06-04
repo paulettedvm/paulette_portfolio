@@ -19,6 +19,11 @@ const Projects = () => {
                 skills="HTML/CSS | React.js | p5.js"
                 description="instead of using a template to build my website, i decided to learn how to do it myself and use it as an opportunity to showcase website development skills. this site is built with React and p5.js, it is fully responsive so it should display nicely on all screen sizes and types. but if something is broken, feel free to let me know!"
             />
+            <ProjectCard name="sudoku solver"
+                image="/images/sudoku.gif"
+                skills="Python"
+                description="i'm a self-proclaimed sudoku enthusiast, always on the lookout for a challenging puzzle. inspired by my AI class where i delved into assignment problems and search algorithms, i decided to apply these concepts to solve sudoku puzzles. this python script employs a backtracking search algorithm to crack any 9x9 Sudoku grid. it's a project in constant evolution, and i'm currently exploring the integration of computer vision techniques to tackle puzzles from image inputs."
+            />
 
             <h2 style={{ marginBottom: '0px' }}> data + graphics work </h2>
             <p style={{ marginTop: '1px' }}>for more, feel free to check out my <a href="https://www.columbiaspectator.com/contributors/Paulette-Del-Valle/">columbia spectator profile</a>!</p>
