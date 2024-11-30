@@ -1,3 +1,8 @@
+/* orange #FC931A */
+/* blue #42cafd */
+/* purple #b084cc */
+/* green #6FF958 */
+
 body {
   margin: 2rem;
   font-family: 'JetBrains Mono', sans-serif;
@@ -40,6 +45,13 @@ a {
   color: white;
 }
 
+.projects-container {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-column-gap: 10%;
+  grid-row-gap: 15px;
+}
+
 /* media query for mobile screens */
 @media (max-width: 600px) {
   .clock-title {
@@ -58,5 +70,9 @@ a {
     gap: 0;
     /* resets gap set for desktop version, so that it can be spaced correctly */
     justify-content: space-between;
+  }
+
+  .projects-container {
+    grid-template-columns: 100%;
   }
 }

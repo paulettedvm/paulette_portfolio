@@ -4,7 +4,6 @@ import './project-card.css';
 const ProjectCard = (props) => {
     return (
         <div className="project-card">
-            <h2 className="project-name">{props.name}</h2>
             <div className='image-container'>
                 <img
                     src={props.image}
@@ -12,8 +11,8 @@ const ProjectCard = (props) => {
                     className="project-image"
                 />
             </div>
+            <h2 className="project-name">{props.name}</h2>
             <p className="project-skills">{props.skills}</p>
-            <p className="project-description">{props.description}</p>
         </div>
     );
 }
