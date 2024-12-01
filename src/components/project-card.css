@@ -15,6 +15,15 @@
     color: white;
 }
 
+.title-link {
+    text-decoration: none;
+}
+
+.title-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 @media (max-width: 600px) {
     .project-image {
         height: 45vw;
