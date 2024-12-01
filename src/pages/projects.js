@@ -11,25 +11,25 @@ const Projects = () => {
             <div class="projects-container">
                 <ProjectCard name="medical center to launch ‘diversity in clinical trials’ training program as racial disparities in clinical care persist"
                     image="/images/trials.gif"
-                    skills="R | Adobe Illustrator"
+                    skills="r | adobe illustrator"
                     link="https://www.columbiaspectator.com/city-news/2023/02/06/medical-center-to-launch-diversity-in-clinical-trials-training-program-as-racial-disparities-in-clinical-care-persist/"
                 />
 
                 <ProjectCard name="columbia announces record-high term bill, financial aid enhancements"
                     image="/images/tuition.gif"
-                    skills="R | Adobe Illustrator"
+                    skills="r | adobe illustrator"
                     link="https://www.columbiaspectator.com/news/2023/04/20/columbia-announces-record-high-term-bill-financial-aid-enhancements/"
                 />
 
                 <ProjectCard name="columbia in the canopy: green space and the city’s urban forest"
                     image="/images/treemap.gif"
-                    skills="Python | ArcGIS | Adobe Illustrator | Data Collection"
+                    skills="python | arcGIS | adobe illustrator | data collection"
                     link="https://www.columbiaspectator.com/the-eye/2023/10/08/columbia-in-the-canopy-green-space-and-the-citys-urban-forest/"
                 />
 
                 <ProjectCard name="exceeding previous estimates, columbia is the largest private landowner in new york city, city data reveals"
                     image="/images/landowner.png"
-                    skills="Python | Data Analysis"
+                    skills="python | data analysis"
                     link="https://www.columbiaspectator.com/city-news/2023/04/20/exceeding-previous-estimates-columbia-is-the-largest-private-landowner-in-new-york-city-city-data-reveals/"
                 />
             </div>
@@ -48,11 +48,11 @@ const Projects = () => {
 
                 <ProjectCard name="this website!"
                     image="/images/website.gif"
-                    skills="HTML/CSS | React.js | p5.js"
+                    skills="html/css | react.js | p5.js"
                 />
                 <ProjectCard name="sudoku solver"
                     image="/images/sudoku.gif"
-                    skills="Python"
+                    skills="python"
                 />
             </div>
 
