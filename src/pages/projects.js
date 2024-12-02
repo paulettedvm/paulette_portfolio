@@ -37,15 +37,6 @@ const Projects = () => {
             <h1> additional projects </h1>
 
             <div class="projects-container">
-
-                {/* 
-            <ProjectCard name="abstract clock"
-                image="/images/projects-porfolio.png"
-                skills="HTML/CSS | p5.js"
-                description="if you were wondering 'what's with those graphics on the home page?' this is it! as part of my spring 2021 data visualization course, i developed an abstract clock using p5.js where i was able to have hands-on design experience and experiment with unconventional ways to represent data."
-            />
-             */}
-
                 <ProjectCard name="this website!"
                     image="/images/website.gif"
                     skills="html/css | react.js | p5.js"

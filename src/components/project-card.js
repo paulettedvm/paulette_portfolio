@@ -14,9 +14,9 @@ const ProjectCard = (props) => {
                 </a>
             </div>
             <a href={props.link} target="_blank" rel="noopener noreferrer" class="title-link">
-                <h2 className="project-name">{props.name}</h2>
+                <h3 className="project-name" style={{ marginBottom: '0px' }}>{props.name}</h3>
             </a>
-            <p className="project-skills">{props.skills}</p>
+            <p className="project-skills" style={{ marginTop: '5px' }}>{props.skills}</p>
         </div>
     );
 }
