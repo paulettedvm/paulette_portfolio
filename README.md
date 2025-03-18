@@ -1,4 +1,4 @@
-# Portfolio Website (paulette-2023)
+# Portfolio Website
 
 This repository contains the source code for my personal portfolio website. The site is designed to display my projects interactively and is built using modern web technologies. Feel free to visit [here](https://delvalle.netlify.app/)!
 
