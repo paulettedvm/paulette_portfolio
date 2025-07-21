@@ -20,7 +20,7 @@ const AboutMe = () => {
                 <p> previously, i was a {" "}
                     <a href="https://careers.washingtonpost.com/internships/2023/"> news engineering intern</a>{" "}
                     at the washington post, where i developed and maintained cutting-edge tools for the interactive news engineering team.
-                    this included contributions to the washington post design system and internal publishing tools that streamlined visual journalism processes within the newsroom.
+                    this included contributions to internal publishing tools that streamlined visual journalism processes within the newsroom.
                     alongside two fellow interns, i also designed and developed post-snap, a tool enabling readers to customize article formatting for printing.
                 </p>
 
